@@ -1,0 +1,11 @@
+C:\Teste\LerXML\LerXmlExemplo\bin\Debug\netcoreapp2.2\LerXmlExemplo.deps.json
+C:\Teste\LerXML\LerXmlExemplo\bin\Debug\netcoreapp2.2\LerXmlExemplo.runtimeconfig.json
+C:\Teste\LerXML\LerXmlExemplo\bin\Debug\netcoreapp2.2\LerXmlExemplo.runtimeconfig.dev.json
+C:\Teste\LerXML\LerXmlExemplo\bin\Debug\netcoreapp2.2\LerXmlExemplo.dll
+C:\Teste\LerXML\LerXmlExemplo\bin\Debug\netcoreapp2.2\LerXmlExemplo.pdb
+C:\Teste\LerXML\LerXmlExemplo\obj\Debug\netcoreapp2.2\LerXmlExemplo.csprojAssemblyReference.cache
+C:\Teste\LerXML\LerXmlExemplo\obj\Debug\netcoreapp2.2\LerXmlExemplo.csproj.CoreCompileInputs.cache
+C:\Teste\LerXML\LerXmlExemplo\obj\Debug\netcoreapp2.2\LerXmlExemplo.AssemblyInfoInputs.cache
+C:\Teste\LerXML\LerXmlExemplo\obj\Debug\netcoreapp2.2\LerXmlExemplo.AssemblyInfo.cs
+C:\Teste\LerXML\LerXmlExemplo\obj\Debug\netcoreapp2.2\LerXmlExemplo.dll
+C:\Teste\LerXML\LerXmlExemplo\obj\Debug\netcoreapp2.2\LerXmlExemplo.pdb
