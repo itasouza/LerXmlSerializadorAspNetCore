@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<revista numero="2323" data="14/07/2015">
+  <processo numero="904515168">
+    <despachos>
+      <despacho codigo="IPAS029" nome="Deferimento do pedido"/>
+    </despachos>
+    <titulares>
+      <titular nome-razao-social="CRIS LAVANDERIA LTDA - ME" pais="BR" uf="SP"/>
+    </titulares>
+    <classe-nice codigo="37">
+      <especificacao>Lavagem; Lavagem a seco; Lavagem de roupa; Lavagem de roupa; Limpeza de roupas; Passar roupa a ferro; Passar roupa a vapor; Roupa (Passar -) a ferro; Roupas (Limpeza de -); Seco (Lavagem a -); Lavagem a vapor; Lavanderia;</especificacao>
+    </classe-nice>
+    <apostila>Sem direito ao uso exclusivo da expressão &quot;"LAVANDERIA"&quot;.</apostila>
+    <procurador>RODRIGO AFFONSO DE OURO PRETO SANTOS</procurador>
+  </processo>
+    <processo numero="818784962">
+    <despachos>
+      <despacho codigo="IPAS161" nome="Extinção de registro pela expiração do prazo de vigência"/>
+    </despachos>
+    <titulares>
+      <titular nome-razao-social="HISPANIA LÍNGUAS LATINAS LTDA" pais="BR" uf="SP"/>
+    </titulares>
+    <procurador>BRITÂNIA MARCAS E  PATENTES S/C LTDA</procurador>
+  </processo>
+   <processo numero="830696326">
+    <despachos>
+      <despacho codigo="IPAS024" nome="Indeferimento do pedido">
+        <texto-complementar>A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistrável de acordo com o inciso XIX do Art. 124 da LPI: Processo 825732310 (FLEX TV). Art. 124 - Não são registráveis como marca: XIX - reprodução ou imitação, no todo ou em parte, ainda que com acréscimo, de marca alheia registrada, para distinguir ou certificar produto ou serviço idêntico, semelhante ou afim, suscetível de causar confusão ou associação com marca alheia;</texto-complementar>
+      </despacho>
+    </despachos>
+    <titulares>
+      <titular nome-razao-social="TECNET TELEINFORMÁTICA LTDA" pais="BR" uf="SP"/>
+    </titulares>
+    <classe-nice codigo="09">
+      <especificacao>&quot;APARELHOS ELÉTRICOS PARA IGNIÇÃO Á DISTÂNCIA, APARELHOS PARA TRANSMISsÃO DE SOM, TELEFÔNICOS
+(TRANSMISSORES - ); APARELHOS DE TELECOMUNICAÇÃO; RECEPTADORES DE TELEFONE; INTERCOMUNICAÇÃO
+(APARELHOS PARA -) ; UNIDADES CENTRAIS DE PROCESSAMENTO [PROCESSADORES] [INFORMÁTICA]: PERIFÉRICOS DE
+COMPUTADOR; COMPUTADOR (MEMÓRIAS PARA -); COMPUTADOR (PERIFÉRICOS DE -); COMPUTADOR (PROGRAMAS DE -)
+[PARA DOWNLOAD]; COMPUTADOR (PROGRAMAS DE - ), GRAVADOS, COMPUTADOR (PROGRAMAS DE - ), GRAVADOS
+[PROGRAMAS], COMPUTADOR, (PROGRAMAS OPERACIONAIS PARA - ) [GRAVADOS], COMPUTADOR (TECLADOS DE -
+COMPUTADORES, ENTRETENIMENTO (APARELHOS PARA - ), ADAPTADORES PARA USO APENAS COM RECEPTORES DE
+TELEVISÃO, MONITORAR (APARELHOS ELÉTRICOS PARA -), MONITORES [PERIFÉRICOS DE COMPUTADOR], MONITORES
+[PROGRAJiAS DE COMPUTADOR], PROGRAMAS DE COMPUTADOR; RECEPTORES DE TELEFONE, SINAIS ELETRÔNICOS
+(TRANSMISSORES DE -), TELEFONE (APARELHOS DE -), TELEFONE (RECEPTORES DE -)TRANSMISSORES DE SINAIS ELETRÔNICOS, 
+TRANSMISSORES [TELECOMUNICAÇÃO],
+UNIDADES CENTRAIS DE PROCESSAMENTO [PROCESSADORES], [INFORMÁTICA],
+PLATAFORMAS MULTI-SERVIÇOS APARELHOS ÁREA COMUNICAÇÃO INTEGRADA,
+PERMITINDO ORIGINAR, RECEBER, ARMAZENAR E RECUPERAR MENSAGENS DE VOZ,
+FAX, IMAGENS, VIDEOS, ACESSAR BANCO DE DADOS; APARELHOS DE COMUNICAÇÃO
+INTERAGINDO POR TV, RÁDIO E INTERNET&apos;.; </especificacao>
+    </classe-nice>
+    <procurador>FABIANE FRANCO LACERDA</procurador>
+  </processo> 
+  
+   </revista>
