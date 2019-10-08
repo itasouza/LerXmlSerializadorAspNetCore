@@ -133,13 +133,9 @@ namespace Projeto.GravacaoXML.Migrations
                         .HasColumnType("varchar(200)");
 
                     b.Property<string>("DataDoDeposito")
-                        .IsRequired()
-                        .HasConversion(new ValueConverter<string, string>(v => default(string), v => default(string), new ConverterMappingHints(size: 48)))
                         .HasColumnType("varchar(20)");
 
                     b.Property<string>("Numero")
-                        .IsRequired()
-                        .HasConversion(new ValueConverter<string, string>(v => default(string), v => default(string), new ConverterMappingHints(size: 64)))
                         .HasColumnType("varchar(20)");
 
                     b.Property<string>("Procurador")

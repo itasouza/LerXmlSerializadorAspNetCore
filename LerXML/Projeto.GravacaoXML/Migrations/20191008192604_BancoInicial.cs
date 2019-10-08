@@ -13,8 +13,8 @@ namespace Projeto.GravacaoXML.Migrations
                 {
                     RevistaId = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
-                    Numero = table.Column<string>(type: "varchar", maxLength: 20, nullable: true),
-                    Data = table.Column<string>(type: "varchar", maxLength: 20, nullable: true)
+                    Numero = table.Column<string>(type: "varchar(20)", nullable: true),
+                    Data = table.Column<string>(type: "varchar(20)", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -27,11 +27,11 @@ namespace Projeto.GravacaoXML.Migrations
                 {
                     ProcessoId = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
-                    Numero = table.Column<string>(type: "varchar", maxLength: 20, nullable: false),
-                    DataDoDeposito = table.Column<string>(type: "varchar", maxLength: 20, nullable: false),
+                    Numero = table.Column<string>(type: "varchar(20)", nullable: true),
+                    DataDoDeposito = table.Column<string>(type: "varchar(20)", nullable: true),
                     RevistaId = table.Column<int>(nullable: false),
-                    Apostila = table.Column<string>(type: "varchar", maxLength: 200, nullable: true),
-                    Procurador = table.Column<string>(type: "varchar", maxLength: 200, nullable: true)
+                    Apostila = table.Column<string>(type: "varchar(200)", nullable: true),
+                    Procurador = table.Column<string>(type: "varchar(200)", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -50,8 +50,8 @@ namespace Projeto.GravacaoXML.Migrations
                 {
                     ClasseNiceId = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
-                    Codigo = table.Column<string>(type: "varchar", maxLength: 20, nullable: true),
-                    Especificacao = table.Column<string>(type: "varchar", maxLength: 1000, nullable: true),
+                    Codigo = table.Column<string>(type: "varchar(20)", nullable: true),
+                    Especificacao = table.Column<string>(type: "varchar(300)", nullable: true),
                     ProcessoId = table.Column<int>(nullable: false)
                 },
                 constraints: table =>
@@ -71,7 +71,7 @@ namespace Projeto.GravacaoXML.Migrations
                 {
                     ClassesViennaId = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
-                    Edicao = table.Column<string>(type: "varchar", maxLength: 200, nullable: true),
+                    Edicao = table.Column<string>(type: "varchar(200)", nullable: true),
                     ProcessoId = table.Column<int>(nullable: false)
                 },
                 constraints: table =>
@@ -91,8 +91,8 @@ namespace Projeto.GravacaoXML.Migrations
                 {
                     DespachoId = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
-                    Codigo = table.Column<string>(type: "varchar", maxLength: 20, nullable: true),
-                    Nome = table.Column<string>(type: "varchar", maxLength: 200, nullable: false),
+                    Codigo = table.Column<string>(type: "varchar(20)", nullable: true),
+                    Nome = table.Column<string>(type: "varchar(200)", nullable: true),
                     ProcessoId = table.Column<int>(nullable: false)
                 },
                 constraints: table =>
@@ -112,9 +112,9 @@ namespace Projeto.GravacaoXML.Migrations
                 {
                     MarcaId = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
-                    Apresentacao = table.Column<string>(type: "varchar", maxLength: 200, nullable: true),
-                    Natureza = table.Column<string>(type: "varchar", maxLength: 200, nullable: true),
-                    Nome = table.Column<string>(type: "varchar", maxLength: 200, nullable: true),
+                    Apresentacao = table.Column<string>(type: "varchar(200)", nullable: true),
+                    Natureza = table.Column<string>(type: "varchar(200)", nullable: true),
+                    Nome = table.Column<string>(type: "varchar(200)", nullable: true),
                     ProcessoId = table.Column<int>(nullable: false)
                 },
                 constraints: table =>
@@ -134,9 +134,9 @@ namespace Projeto.GravacaoXML.Migrations
                 {
                     TitularId = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
-                    RazaoSocial = table.Column<string>(type: "varchar", maxLength: 200, nullable: true),
-                    Pais = table.Column<string>(type: "varchar", maxLength: 100, nullable: true),
-                    UF = table.Column<string>(type: "varchar", maxLength: 2, nullable: true),
+                    RazaoSocial = table.Column<string>(type: "varchar(200)", nullable: true),
+                    Pais = table.Column<string>(type: "varchar(100)", nullable: true),
+                    UF = table.Column<string>(type: "varchar(2)", nullable: true),
                     ProcessoId = table.Column<int>(nullable: false)
                 },
                 constraints: table =>
@@ -156,7 +156,7 @@ namespace Projeto.GravacaoXML.Migrations
                 {
                     ClasseViennaId = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
-                    Codigo = table.Column<string>(type: "varchar", maxLength: 20, nullable: true),
+                    Codigo = table.Column<string>(type: "varchar(20)", nullable: true),
                     ClassesViennaId = table.Column<int>(nullable: false)
                 },
                 constraints: table =>

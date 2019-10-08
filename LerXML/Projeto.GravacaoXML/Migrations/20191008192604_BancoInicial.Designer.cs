@@ -9,7 +9,7 @@ using Projeto.GravacaoXML.Data;
 namespace Projeto.GravacaoXML.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20191008183004_BancoInicial")]
+    [Migration("20191008192604_BancoInicial")]
     partial class BancoInicial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -27,12 +27,10 @@ namespace Projeto.GravacaoXML.Migrations
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<string>("Codigo")
-                        .HasColumnType("varchar")
-                        .HasMaxLength(20);
+                        .HasColumnType("varchar(20)");
 
                     b.Property<string>("Especificacao")
-                        .HasColumnType("varchar")
-                        .HasMaxLength(1000);
+                        .HasColumnType("varchar(300)");
 
                     b.Property<int>("ProcessoId");
 
@@ -53,8 +51,7 @@ namespace Projeto.GravacaoXML.Migrations
                     b.Property<int>("ClassesViennaId");
 
                     b.Property<string>("Codigo")
-                        .HasColumnType("varchar")
-                        .HasMaxLength(20);
+                        .HasColumnType("varchar(20)");
 
                     b.HasKey("ClasseViennaId");
 
@@ -70,8 +67,7 @@ namespace Projeto.GravacaoXML.Migrations
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<string>("Edicao")
-                        .HasColumnType("varchar")
-                        .HasMaxLength(200);
+                        .HasColumnType("varchar(200)");
 
                     b.Property<int>("ProcessoId");
 
@@ -90,13 +86,10 @@ namespace Projeto.GravacaoXML.Migrations
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<string>("Codigo")
-                        .HasColumnType("varchar")
-                        .HasMaxLength(20);
+                        .HasColumnType("varchar(20)");
 
                     b.Property<string>("Nome")
-                        .IsRequired()
-                        .HasColumnType("varchar")
-                        .HasMaxLength(200);
+                        .HasColumnType("varchar(200)");
 
                     b.Property<int>("ProcessoId");
 
@@ -114,16 +107,13 @@ namespace Projeto.GravacaoXML.Migrations
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<string>("Apresentacao")
-                        .HasColumnType("varchar")
-                        .HasMaxLength(200);
+                        .HasColumnType("varchar(200)");
 
                     b.Property<string>("Natureza")
-                        .HasColumnType("varchar")
-                        .HasMaxLength(200);
+                        .HasColumnType("varchar(200)");
 
                     b.Property<string>("Nome")
-                        .HasColumnType("varchar")
-                        .HasMaxLength(200);
+                        .HasColumnType("varchar(200)");
 
                     b.Property<int>("ProcessoId");
 
@@ -142,24 +132,16 @@ namespace Projeto.GravacaoXML.Migrations
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<string>("Apostila")
-                        .HasColumnType("varchar")
-                        .HasMaxLength(200);
+                        .HasColumnType("varchar(200)");
 
                     b.Property<string>("DataDoDeposito")
-                        .IsRequired()
-                        .HasConversion(new ValueConverter<string, string>(v => default(string), v => default(string), new ConverterMappingHints(size: 48)))
-                        .HasColumnType("varchar")
-                        .HasMaxLength(20);
+                        .HasColumnType("varchar(20)");
 
                     b.Property<string>("Numero")
-                        .IsRequired()
-                        .HasConversion(new ValueConverter<string, string>(v => default(string), v => default(string), new ConverterMappingHints(size: 64)))
-                        .HasColumnType("varchar")
-                        .HasMaxLength(20);
+                        .HasColumnType("varchar(20)");
 
                     b.Property<string>("Procurador")
-                        .HasColumnType("varchar")
-                        .HasMaxLength(200);
+                        .HasColumnType("varchar(200)");
 
                     b.Property<int>("RevistaId");
 
@@ -177,12 +159,10 @@ namespace Projeto.GravacaoXML.Migrations
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<string>("Data")
-                        .HasColumnType("varchar")
-                        .HasMaxLength(20);
+                        .HasColumnType("varchar(20)");
 
                     b.Property<string>("Numero")
-                        .HasColumnType("varchar")
-                        .HasMaxLength(20);
+                        .HasColumnType("varchar(20)");
 
                     b.HasKey("RevistaId");
 
@@ -196,18 +176,15 @@ namespace Projeto.GravacaoXML.Migrations
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<string>("Pais")
-                        .HasColumnType("varchar")
-                        .HasMaxLength(100);
+                        .HasColumnType("varchar(100)");
 
                     b.Property<int>("ProcessoId");
 
                     b.Property<string>("RazaoSocial")
-                        .HasColumnType("varchar")
-                        .HasMaxLength(200);
+                        .HasColumnType("varchar(200)");
 
                     b.Property<string>("UF")
-                        .HasColumnType("varchar")
-                        .HasMaxLength(2);
+                        .HasColumnType("varchar(2)");
 
                     b.HasKey("TitularId");
 
