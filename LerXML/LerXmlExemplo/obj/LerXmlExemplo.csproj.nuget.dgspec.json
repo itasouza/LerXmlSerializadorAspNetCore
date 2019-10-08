@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\GitHub\\LerXmlSerializadorAspNetCore\\LerXML\\LerXmlExemplo\\LerXmlExemplo.csproj": {}
+    "C:\\GitHub\\LerXmlSerializadorAspNetCore-master\\LerXmlSerializadorAspNetCore-master\\LerXML\\LerXmlExemplo\\LerXmlExemplo.csproj": {}
   },
   "projects": {
-    "C:\\GitHub\\LerXmlSerializadorAspNetCore\\LerXML\\LerXmlExemplo\\LerXmlExemplo.csproj": {
+    "C:\\GitHub\\LerXmlSerializadorAspNetCore-master\\LerXmlSerializadorAspNetCore-master\\LerXML\\LerXmlExemplo\\LerXmlExemplo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GitHub\\LerXmlSerializadorAspNetCore\\LerXML\\LerXmlExemplo\\LerXmlExemplo.csproj",
+        "projectUniqueName": "C:\\GitHub\\LerXmlSerializadorAspNetCore-master\\LerXmlSerializadorAspNetCore-master\\LerXML\\LerXmlExemplo\\LerXmlExemplo.csproj",
         "projectName": "LerXmlExemplo",
-        "projectPath": "C:\\GitHub\\LerXmlSerializadorAspNetCore\\LerXML\\LerXmlExemplo\\LerXmlExemplo.csproj",
+        "projectPath": "C:\\GitHub\\LerXmlSerializadorAspNetCore-master\\LerXmlSerializadorAspNetCore-master\\LerXML\\LerXmlExemplo\\LerXmlExemplo.csproj",
         "packagesPath": "C:\\Users\\ItaPC\\.nuget\\packages\\",
-        "outputPath": "C:\\GitHub\\LerXmlSerializadorAspNetCore\\LerXML\\LerXmlExemplo\\obj\\",
+        "outputPath": "C:\\GitHub\\LerXmlSerializadorAspNetCore-master\\LerXmlSerializadorAspNetCore-master\\LerXML\\LerXmlExemplo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

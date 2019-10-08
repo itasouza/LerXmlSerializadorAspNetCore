@@ -693,11 +693,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\GitHub\\LerXmlSerializadorAspNetCore\\LerXML\\LerXmlRevista\\LerXmlRevista.csproj",
+      "projectUniqueName": "C:\\GitHub\\LerXmlSerializadorAspNetCore-master\\LerXmlSerializadorAspNetCore-master\\LerXML\\LerXmlRevista\\LerXmlRevista.csproj",
       "projectName": "LerXmlRevista",
-      "projectPath": "C:\\GitHub\\LerXmlSerializadorAspNetCore\\LerXML\\LerXmlRevista\\LerXmlRevista.csproj",
+      "projectPath": "C:\\GitHub\\LerXmlSerializadorAspNetCore-master\\LerXmlSerializadorAspNetCore-master\\LerXML\\LerXmlRevista\\LerXmlRevista.csproj",
       "packagesPath": "C:\\Users\\ItaPC\\.nuget\\packages\\",
-      "outputPath": "C:\\GitHub\\LerXmlSerializadorAspNetCore\\LerXML\\LerXmlRevista\\obj\\",
+      "outputPath": "C:\\GitHub\\LerXmlSerializadorAspNetCore-master\\LerXmlSerializadorAspNetCore-master\\LerXML\\LerXmlRevista\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

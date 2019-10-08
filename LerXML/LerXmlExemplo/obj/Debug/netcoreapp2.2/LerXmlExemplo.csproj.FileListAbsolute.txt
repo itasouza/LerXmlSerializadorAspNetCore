@@ -20,3 +20,13 @@ C:\GitHub\LerXmlSerializadorAspNetCore\LerXML\LerXmlExemplo\obj\Debug\netcoreapp
 C:\GitHub\LerXmlSerializadorAspNetCore\LerXML\LerXmlExemplo\obj\Debug\netcoreapp2.2\LerXmlExemplo.AssemblyInfo.cs
 C:\GitHub\LerXmlSerializadorAspNetCore\LerXML\LerXmlExemplo\obj\Debug\netcoreapp2.2\LerXmlExemplo.dll
 C:\GitHub\LerXmlSerializadorAspNetCore\LerXML\LerXmlExemplo\obj\Debug\netcoreapp2.2\LerXmlExemplo.pdb
+D:\Itamar\LerXmlSerializadorAspNetCore-master\LerXmlSerializadorAspNetCore-master\LerXML\LerXmlExemplo\bin\Debug\netcoreapp2.2\LerXmlExemplo.deps.json
+D:\Itamar\LerXmlSerializadorAspNetCore-master\LerXmlSerializadorAspNetCore-master\LerXML\LerXmlExemplo\bin\Debug\netcoreapp2.2\LerXmlExemplo.runtimeconfig.json
+D:\Itamar\LerXmlSerializadorAspNetCore-master\LerXmlSerializadorAspNetCore-master\LerXML\LerXmlExemplo\bin\Debug\netcoreapp2.2\LerXmlExemplo.runtimeconfig.dev.json
+D:\Itamar\LerXmlSerializadorAspNetCore-master\LerXmlSerializadorAspNetCore-master\LerXML\LerXmlExemplo\bin\Debug\netcoreapp2.2\LerXmlExemplo.dll
+D:\Itamar\LerXmlSerializadorAspNetCore-master\LerXmlSerializadorAspNetCore-master\LerXML\LerXmlExemplo\bin\Debug\netcoreapp2.2\LerXmlExemplo.pdb
+D:\Itamar\LerXmlSerializadorAspNetCore-master\LerXmlSerializadorAspNetCore-master\LerXML\LerXmlExemplo\obj\Debug\netcoreapp2.2\LerXmlExemplo.csprojAssemblyReference.cache
+D:\Itamar\LerXmlSerializadorAspNetCore-master\LerXmlSerializadorAspNetCore-master\LerXML\LerXmlExemplo\obj\Debug\netcoreapp2.2\LerXmlExemplo.AssemblyInfoInputs.cache
+D:\Itamar\LerXmlSerializadorAspNetCore-master\LerXmlSerializadorAspNetCore-master\LerXML\LerXmlExemplo\obj\Debug\netcoreapp2.2\LerXmlExemplo.AssemblyInfo.cs
+D:\Itamar\LerXmlSerializadorAspNetCore-master\LerXmlSerializadorAspNetCore-master\LerXML\LerXmlExemplo\obj\Debug\netcoreapp2.2\LerXmlExemplo.dll
+D:\Itamar\LerXmlSerializadorAspNetCore-master\LerXmlSerializadorAspNetCore-master\LerXML\LerXmlExemplo\obj\Debug\netcoreapp2.2\LerXmlExemplo.pdb
