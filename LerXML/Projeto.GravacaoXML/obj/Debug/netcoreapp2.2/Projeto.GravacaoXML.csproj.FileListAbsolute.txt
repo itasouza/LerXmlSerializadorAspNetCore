@@ -27,3 +27,4 @@ C:\GitHub\LerXmlSerializadorAspNetCore\LerXML\Projeto.GravacaoXML\obj\Debug\netc
 C:\GitHub\LerXmlSerializadorAspNetCore\LerXML\Projeto.GravacaoXML\obj\Debug\netcoreapp2.2\Projeto.GravacaoXML.dll
 C:\GitHub\LerXmlSerializadorAspNetCore\LerXML\Projeto.GravacaoXML\obj\Debug\netcoreapp2.2\Projeto.GravacaoXML.pdb
 C:\GitHub\LerXmlSerializadorAspNetCore\LerXML\Projeto.GravacaoXML\obj\Debug\netcoreapp2.2\Projeto.GravacaoXML.csproj.CopyComplete
+C:\GitHub\LerXmlSerializadorAspNetCore\LerXML\Projeto.GravacaoXML\obj\Debug\netcoreapp2.2\Projeto.GravacaoXML.csprojAssemblyReference.cache

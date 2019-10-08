@@ -14,7 +14,7 @@ namespace Projeto.GravacaoXML.Mapeamento
         {
             builder.HasKey(x => x.ClasseNiceId);
             builder.Property(x => x.Codigo).HasColumnType("varchar(20)"); 
-            builder.Property(x => x.Especificacao).HasColumnType("varchar(100)");
+            builder.Property(x => x.Especificacao).HasColumnType("varchar(300)");
 
             builder.ToTable("CLASSENICE");
         }
