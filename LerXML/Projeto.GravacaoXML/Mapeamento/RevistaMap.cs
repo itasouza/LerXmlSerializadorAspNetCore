@@ -14,8 +14,8 @@ namespace Projeto.GravacaoXML.Mapeamento
         public void Configure(EntityTypeBuilder<Revista> builder)
         {
             builder.HasKey(td => td.RevistaId);
-            builder.Property(td => td.Numero).HasColumnType("varchar(20)");
-            builder.Property(td => td.Data).HasColumnType("varchar(20)");
+            builder.Property(td => td.Numero).HasColumnType("int").IsRequired();
+            builder.Property(td => td.Data).HasColumnType("DateTime").IsRequired(false);
 
             //1 revista para vários processos
             builder.HasMany(td => td.Processos).WithOne(td => td.Revista).HasForeignKey(td => td.RevistaId);

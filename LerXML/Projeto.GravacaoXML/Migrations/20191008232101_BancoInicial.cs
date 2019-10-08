@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore.Metadata;
+﻿using System;
+using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace Projeto.GravacaoXML.Migrations
@@ -13,8 +14,8 @@ namespace Projeto.GravacaoXML.Migrations
                 {
                     RevistaId = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
-                    Numero = table.Column<string>(type: "varchar(20)", nullable: true),
-                    Data = table.Column<string>(type: "varchar(20)", nullable: true)
+                    Numero = table.Column<int>(type: "int", nullable: false),
+                    Data = table.Column<DateTime>(type: "DateTime", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -27,8 +28,8 @@ namespace Projeto.GravacaoXML.Migrations
                 {
                     ProcessoId = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
-                    Numero = table.Column<string>(type: "varchar(20)", nullable: true),
-                    DataDoDeposito = table.Column<string>(type: "varchar(20)", nullable: true),
+                    Numero = table.Column<int>(type: "int", nullable: false),
+                    DataDoDeposito = table.Column<DateTime>(type: "DateTime", nullable: false),
                     RevistaId = table.Column<int>(nullable: false),
                     Apostila = table.Column<string>(type: "varchar(200)", nullable: true),
                     Procurador = table.Column<string>(type: "varchar(200)", nullable: true)
@@ -50,7 +51,7 @@ namespace Projeto.GravacaoXML.Migrations
                 {
                     ClasseNiceId = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
-                    Codigo = table.Column<string>(type: "varchar(20)", nullable: true),
+                    Codigo = table.Column<int>(type: "int", nullable: false),
                     Especificacao = table.Column<string>(type: "varchar(300)", nullable: true),
                     ProcessoId = table.Column<int>(nullable: false)
                 },
@@ -91,7 +92,7 @@ namespace Projeto.GravacaoXML.Migrations
                 {
                     DespachoId = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
-                    Codigo = table.Column<string>(type: "varchar(20)", nullable: true),
+                    Codigo = table.Column<int>(type: "int", nullable: false),
                     Nome = table.Column<string>(type: "varchar(200)", nullable: true),
                     ProcessoId = table.Column<int>(nullable: false)
                 },
@@ -156,7 +157,7 @@ namespace Projeto.GravacaoXML.Migrations
                 {
                     ClasseViennaId = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
-                    Codigo = table.Column<string>(type: "varchar(20)", nullable: true),
+                    Codigo = table.Column<int>(type: "int", nullable: false),
                     ClassesViennaId = table.Column<int>(nullable: false)
                 },
                 constraints: table =>

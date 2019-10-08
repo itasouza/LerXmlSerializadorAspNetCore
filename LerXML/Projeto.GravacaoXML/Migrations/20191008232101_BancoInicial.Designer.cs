@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Projeto.GravacaoXML.Data;
 
 namespace Projeto.GravacaoXML.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20191008232101_BancoInicial")]
+    partial class BancoInicial
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -25,7 +27,7 @@ namespace Projeto.GravacaoXML.Migrations
                         .ValueGeneratedOnAdd()
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<int?>("Codigo")
+                    b.Property<int>("Codigo")
                         .HasColumnType("int");
 
                     b.Property<string>("Especificacao")
@@ -49,7 +51,7 @@ namespace Projeto.GravacaoXML.Migrations
 
                     b.Property<int>("ClassesViennaId");
 
-                    b.Property<int?>("Codigo")
+                    b.Property<int>("Codigo")
                         .HasColumnType("int");
 
                     b.HasKey("ClasseViennaId");
@@ -84,7 +86,7 @@ namespace Projeto.GravacaoXML.Migrations
                         .ValueGeneratedOnAdd()
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<int?>("Codigo")
+                    b.Property<int>("Codigo")
                         .HasColumnType("int");
 
                     b.Property<string>("Nome")
@@ -133,10 +135,10 @@ namespace Projeto.GravacaoXML.Migrations
                     b.Property<string>("Apostila")
                         .HasColumnType("varchar(200)");
 
-                    b.Property<DateTime?>("DataDoDeposito")
+                    b.Property<DateTime>("DataDoDeposito")
                         .HasColumnType("DateTime");
 
-                    b.Property<int?>("Numero")
+                    b.Property<int>("Numero")
                         .HasColumnType("int");
 
                     b.Property<string>("Procurador")
@@ -157,7 +159,7 @@ namespace Projeto.GravacaoXML.Migrations
                         .ValueGeneratedOnAdd()
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<DateTime?>("Data")
+                    b.Property<DateTime>("Data")
                         .HasColumnType("DateTime");
 
                     b.Property<int>("Numero")

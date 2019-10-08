@@ -6,18 +6,12 @@ using System.Xml.Serialization;
 
 namespace Projeto.GravacaoXML.Models
 {
-    [XmlRoot("despacho")]
+
     public class Despacho
     {
         public int DespachoId { get; set; }
-
-        [XmlAttribute("codigo")]
-        public string Codigo { get; set; }
-
-        [XmlAttribute("nome")]
+        public int? Codigo { get; set; }
         public string Nome { get; set; }
-
-
         public int ProcessoId { get; set; }
         public Processo Processo {get;set;}
     }

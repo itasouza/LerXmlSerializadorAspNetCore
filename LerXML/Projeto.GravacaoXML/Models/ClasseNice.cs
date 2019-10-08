@@ -6,18 +6,12 @@ using System.Xml.Serialization;
 
 namespace Projeto.GravacaoXML.Models
 {
-    [XmlRoot("classe-nice")]
+
     public class ClasseNice
     {
         public int ClasseNiceId { get; set; }
-
-        [XmlAttribute("codigo")]
-        public string Codigo { get; set; }
-
-        [XmlElement("especificacao")]
+        public int? Codigo { get; set; }
         public string Especificacao { get; set; }
-
-
         public int ProcessoId { get; set; }
         public Processo Processo { get; set; }
 

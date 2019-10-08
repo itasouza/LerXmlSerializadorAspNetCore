@@ -8,6 +8,7 @@ using System.Xml.Serialization;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Projeto.GravacaoXML.Data;
+using Projeto.GravacaoXML.Dto;
 using Projeto.GravacaoXML.Models;
 
 namespace Projeto.GravacaoXML.Controllers
@@ -37,13 +38,13 @@ namespace Projeto.GravacaoXML.Controllers
                 XmlSerializer xmlSerializer = new XmlSerializer(typeof(Revista));
                 StreamReader sr = new StreamReader(file);
                 //var revista = xmlSerializer.Deserialize(sr);
-                Revista DadosLidos = (Revista)xmlSerializer.Deserialize(sr);
+                RevistaDto DadosLidos = (RevistaDto)xmlSerializer.Deserialize(sr);
 
-                Revista dados = new Revista();
-                dados.Data = DadosLidos.Data;
-                dados.Numero = DadosLidos.Numero;
-                _context.REVISTA.Add(dados);
-                _context.Add(dados);
+                //Revista dados = new Revista();
+                //dados.Data = DadosLidos.Data;
+                //dados.Numero = DadosLidos.Numero;
+                //_context.REVISTA.Add(dados);
+                //_context.Add(dados);
                 await _context.SaveChangesAsync();
 
             }

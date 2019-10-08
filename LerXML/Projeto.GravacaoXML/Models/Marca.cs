@@ -6,20 +6,13 @@ using System.Xml.Serialization;
 
 namespace Projeto.GravacaoXML.Models
 {
-    [XmlRoot("marca")]
+
     public class Marca
     {
         public int MarcaId { get; set; }
-
-        [XmlAttribute("apresentacao")]
         public string Apresentacao { get; set; }
-
-        [XmlAttribute("natureza")]
         public string Natureza { get; set; }
-
-        [XmlElement("nome")]
         public string Nome { get; set; }
-
         public int ProcessoId { get; set; }
         public Processo Processo { get; set; }
     }

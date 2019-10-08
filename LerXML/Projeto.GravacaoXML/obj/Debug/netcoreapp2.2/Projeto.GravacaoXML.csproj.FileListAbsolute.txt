@@ -1,3 +1,9 @@
+C:\GitHub\LerXmlSerializadorAspNetCore\LerXML\Projeto.GravacaoXML\obj\Debug\netcoreapp2.2\Projeto.GravacaoXML.csprojAssemblyReference.cache
+C:\GitHub\LerXmlSerializadorAspNetCore\LerXML\Projeto.GravacaoXML\obj\Debug\netcoreapp2.2\Projeto.GravacaoXML.csproj.CoreCompileInputs.cache
+C:\GitHub\LerXmlSerializadorAspNetCore\LerXML\Projeto.GravacaoXML\obj\Debug\netcoreapp2.2\Projeto.GravacaoXML.RazorAssemblyInfo.cache
+C:\GitHub\LerXmlSerializadorAspNetCore\LerXML\Projeto.GravacaoXML\obj\Debug\netcoreapp2.2\Projeto.GravacaoXML.RazorAssemblyInfo.cs
+C:\GitHub\LerXmlSerializadorAspNetCore\LerXML\Projeto.GravacaoXML\obj\Debug\netcoreapp2.2\Projeto.GravacaoXML.AssemblyInfoInputs.cache
+C:\GitHub\LerXmlSerializadorAspNetCore\LerXML\Projeto.GravacaoXML\obj\Debug\netcoreapp2.2\Projeto.GravacaoXML.AssemblyInfo.cs
 C:\GitHub\LerXmlSerializadorAspNetCore\LerXML\Projeto.GravacaoXML\bin\Debug\netcoreapp2.2\Projeto.GravacaoXML.deps.json
 C:\GitHub\LerXmlSerializadorAspNetCore\LerXML\Projeto.GravacaoXML\bin\Debug\netcoreapp2.2\Projeto.GravacaoXML.runtimeconfig.json
 C:\GitHub\LerXmlSerializadorAspNetCore\LerXML\Projeto.GravacaoXML\bin\Debug\netcoreapp2.2\Projeto.GravacaoXML.runtimeconfig.dev.json
@@ -5,11 +11,6 @@ C:\GitHub\LerXmlSerializadorAspNetCore\LerXML\Projeto.GravacaoXML\bin\Debug\netc
 C:\GitHub\LerXmlSerializadorAspNetCore\LerXML\Projeto.GravacaoXML\bin\Debug\netcoreapp2.2\Projeto.GravacaoXML.pdb
 C:\GitHub\LerXmlSerializadorAspNetCore\LerXML\Projeto.GravacaoXML\bin\Debug\netcoreapp2.2\Projeto.GravacaoXML.Views.dll
 C:\GitHub\LerXmlSerializadorAspNetCore\LerXML\Projeto.GravacaoXML\bin\Debug\netcoreapp2.2\Projeto.GravacaoXML.Views.pdb
-C:\GitHub\LerXmlSerializadorAspNetCore\LerXML\Projeto.GravacaoXML\obj\Debug\netcoreapp2.2\Projeto.GravacaoXML.csproj.CoreCompileInputs.cache
-C:\GitHub\LerXmlSerializadorAspNetCore\LerXML\Projeto.GravacaoXML\obj\Debug\netcoreapp2.2\Projeto.GravacaoXML.RazorAssemblyInfo.cache
-C:\GitHub\LerXmlSerializadorAspNetCore\LerXML\Projeto.GravacaoXML\obj\Debug\netcoreapp2.2\Projeto.GravacaoXML.RazorAssemblyInfo.cs
-C:\GitHub\LerXmlSerializadorAspNetCore\LerXML\Projeto.GravacaoXML\obj\Debug\netcoreapp2.2\Projeto.GravacaoXML.AssemblyInfoInputs.cache
-C:\GitHub\LerXmlSerializadorAspNetCore\LerXML\Projeto.GravacaoXML\obj\Debug\netcoreapp2.2\Projeto.GravacaoXML.AssemblyInfo.cs
 C:\GitHub\LerXmlSerializadorAspNetCore\LerXML\Projeto.GravacaoXML\obj\Debug\netcoreapp2.2\Projeto.GravacaoXML.TagHelpers.input.cache
 C:\GitHub\LerXmlSerializadorAspNetCore\LerXML\Projeto.GravacaoXML\obj\Debug\netcoreapp2.2\Projeto.GravacaoXML.TagHelpers.output.cache
 C:\GitHub\LerXmlSerializadorAspNetCore\LerXML\Projeto.GravacaoXML\obj\Debug\netcoreapp2.2\Projeto.GravacaoXML.RazorCoreGenerate.cache
@@ -27,4 +28,3 @@ C:\GitHub\LerXmlSerializadorAspNetCore\LerXML\Projeto.GravacaoXML\obj\Debug\netc
 C:\GitHub\LerXmlSerializadorAspNetCore\LerXML\Projeto.GravacaoXML\obj\Debug\netcoreapp2.2\Projeto.GravacaoXML.dll
 C:\GitHub\LerXmlSerializadorAspNetCore\LerXML\Projeto.GravacaoXML\obj\Debug\netcoreapp2.2\Projeto.GravacaoXML.pdb
 C:\GitHub\LerXmlSerializadorAspNetCore\LerXML\Projeto.GravacaoXML\obj\Debug\netcoreapp2.2\Projeto.GravacaoXML.csproj.CopyComplete
-C:\GitHub\LerXmlSerializadorAspNetCore\LerXML\Projeto.GravacaoXML\obj\Debug\netcoreapp2.2\Projeto.GravacaoXML.csprojAssemblyReference.cache
