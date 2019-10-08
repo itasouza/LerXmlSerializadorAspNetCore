@@ -13,6 +13,8 @@ namespace Projeto.GravacaoXML.Mapeamento
         public void Configure(EntityTypeBuilder<ClassesVienna> builder)
         {
             builder.HasKey(x => x.ClassesViennaId);
+            builder.Property(x => x.Edicao).HasColumnType("varchar(200)");
+
             builder.ToTable("CLASSESVIENNA");
         }
     }

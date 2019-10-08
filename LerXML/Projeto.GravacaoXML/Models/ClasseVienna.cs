@@ -14,5 +14,8 @@ namespace Projeto.GravacaoXML.Models
         [XmlAttribute("codigo")]
         public string Codigo { get; set; }
 
+        public int ClassesViennaId { get; set; }
+        public ClassesVienna ClassesVienna { get; set; }
+
     }
 }

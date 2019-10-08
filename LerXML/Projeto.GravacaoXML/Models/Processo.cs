@@ -13,10 +13,10 @@ namespace Projeto.GravacaoXML.Models
         public int ProcessoId { get; set; }
 
         [XmlAttribute("numero")]
-        public string Numero { get; set; }
+        public int Numero { get; set; }
 
         [XmlAttribute("data-deposito")]
-        public string DataDoDeposito { get; set; }
+        public DateTime DataDoDeposito { get; set; }
 
         public int RevistaId { get; set; }
         public Revista Revista { get; set; }

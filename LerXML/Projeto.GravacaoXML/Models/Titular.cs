@@ -20,5 +20,8 @@ namespace Projeto.GravacaoXML.Models
 
         [XmlAttribute("uf")]
         public string UF { get; set; }
+
+        public int ProcessoId { get; set; }
+        public Processo Processo { get; set; }
     }
 }

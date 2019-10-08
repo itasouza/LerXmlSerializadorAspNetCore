@@ -13,9 +13,9 @@ namespace Projeto.GravacaoXML.Mapeamento
         public void Configure(EntityTypeBuilder<Marca> builder)
         {
             builder.HasKey(x => x.MarcaId);
-            builder.Property(x => x.Natureza).HasColumnType("nText").HasMaxLength(200);
-            builder.Property(x => x.Nome).HasColumnType("nText").HasMaxLength(200);
-            builder.Property(x => x.Apresentacao).HasColumnType("nText").HasMaxLength(200);
+            builder.Property(x => x.Natureza).HasColumnType("varchar(200)");
+            builder.Property(x => x.Nome).HasColumnType("varchar(200)");
+            builder.Property(x => x.Apresentacao).HasColumnType("varchar(200)");
 
             builder.ToTable("MARCA");
         }

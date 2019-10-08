@@ -5,7 +5,6 @@ C:\GitHub\LerXmlSerializadorAspNetCore\LerXML\Projeto.GravacaoXML\bin\Debug\netc
 C:\GitHub\LerXmlSerializadorAspNetCore\LerXML\Projeto.GravacaoXML\bin\Debug\netcoreapp2.2\Projeto.GravacaoXML.pdb
 C:\GitHub\LerXmlSerializadorAspNetCore\LerXML\Projeto.GravacaoXML\bin\Debug\netcoreapp2.2\Projeto.GravacaoXML.Views.dll
 C:\GitHub\LerXmlSerializadorAspNetCore\LerXML\Projeto.GravacaoXML\bin\Debug\netcoreapp2.2\Projeto.GravacaoXML.Views.pdb
-C:\GitHub\LerXmlSerializadorAspNetCore\LerXML\Projeto.GravacaoXML\obj\Debug\netcoreapp2.2\Projeto.GravacaoXML.csprojAssemblyReference.cache
 C:\GitHub\LerXmlSerializadorAspNetCore\LerXML\Projeto.GravacaoXML\obj\Debug\netcoreapp2.2\Projeto.GravacaoXML.csproj.CoreCompileInputs.cache
 C:\GitHub\LerXmlSerializadorAspNetCore\LerXML\Projeto.GravacaoXML\obj\Debug\netcoreapp2.2\Projeto.GravacaoXML.RazorAssemblyInfo.cache
 C:\GitHub\LerXmlSerializadorAspNetCore\LerXML\Projeto.GravacaoXML\obj\Debug\netcoreapp2.2\Projeto.GravacaoXML.RazorAssemblyInfo.cs

@@ -15,8 +15,8 @@ namespace Projeto.GravacaoXML.Mapeamento
         {
             
             builder.HasKey(x => x.DespachoId);
-            builder.Property(x => x.Codigo).HasColumnType("int").IsRequired();
-            builder.Property(x => x.Nome).HasColumnType("nText").HasMaxLength(200).IsRequired();
+            builder.Property(x => x.Codigo).HasColumnType("varchar(20)");
+            builder.Property(x => x.Nome).HasColumnType("varchar(200)");
 
 
             builder.ToTable("DESPACHO");

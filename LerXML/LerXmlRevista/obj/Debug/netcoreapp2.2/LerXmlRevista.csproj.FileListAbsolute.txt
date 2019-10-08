@@ -19,3 +19,14 @@ C:\GitHub\LerXmlSerializadorAspNetCore-master\LerXmlSerializadorAspNetCore-maste
 C:\GitHub\LerXmlSerializadorAspNetCore-master\LerXmlSerializadorAspNetCore-master\LerXML\LerXmlRevista\obj\Debug\netcoreapp2.2\LerXmlRevista.AssemblyInfo.cs
 C:\GitHub\LerXmlSerializadorAspNetCore-master\LerXmlSerializadorAspNetCore-master\LerXML\LerXmlRevista\obj\Debug\netcoreapp2.2\LerXmlRevista.dll
 C:\GitHub\LerXmlSerializadorAspNetCore-master\LerXmlSerializadorAspNetCore-master\LerXML\LerXmlRevista\obj\Debug\netcoreapp2.2\LerXmlRevista.pdb
+C:\GitHub\LerXmlSerializadorAspNetCore\LerXML\LerXmlRevista\bin\Debug\netcoreapp2.2\LerXmlRevista.deps.json
+C:\GitHub\LerXmlSerializadorAspNetCore\LerXML\LerXmlRevista\bin\Debug\netcoreapp2.2\LerXmlRevista.runtimeconfig.json
+C:\GitHub\LerXmlSerializadorAspNetCore\LerXML\LerXmlRevista\bin\Debug\netcoreapp2.2\LerXmlRevista.runtimeconfig.dev.json
+C:\GitHub\LerXmlSerializadorAspNetCore\LerXML\LerXmlRevista\bin\Debug\netcoreapp2.2\LerXmlRevista.dll
+C:\GitHub\LerXmlSerializadorAspNetCore\LerXML\LerXmlRevista\bin\Debug\netcoreapp2.2\LerXmlRevista.pdb
+C:\GitHub\LerXmlSerializadorAspNetCore\LerXML\LerXmlRevista\obj\Debug\netcoreapp2.2\LerXmlRevista.csprojAssemblyReference.cache
+C:\GitHub\LerXmlSerializadorAspNetCore\LerXML\LerXmlRevista\obj\Debug\netcoreapp2.2\LerXmlRevista.csproj.CoreCompileInputs.cache
+C:\GitHub\LerXmlSerializadorAspNetCore\LerXML\LerXmlRevista\obj\Debug\netcoreapp2.2\LerXmlRevista.AssemblyInfoInputs.cache
+C:\GitHub\LerXmlSerializadorAspNetCore\LerXML\LerXmlRevista\obj\Debug\netcoreapp2.2\LerXmlRevista.AssemblyInfo.cs
+C:\GitHub\LerXmlSerializadorAspNetCore\LerXML\LerXmlRevista\obj\Debug\netcoreapp2.2\LerXmlRevista.dll
+C:\GitHub\LerXmlSerializadorAspNetCore\LerXML\LerXmlRevista\obj\Debug\netcoreapp2.2\LerXmlRevista.pdb

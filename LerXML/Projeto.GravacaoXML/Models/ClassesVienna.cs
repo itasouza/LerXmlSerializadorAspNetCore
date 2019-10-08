@@ -17,5 +17,8 @@ namespace Projeto.GravacaoXML.Models
         [XmlElement("classe-vienna")]
         public ClasseVienna[] ClasseVienna { get; set; }
 
+        public int ProcessoId { get; set; }
+        public Processo Processo { get; set; }
+
     }
 }

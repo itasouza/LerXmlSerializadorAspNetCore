@@ -19,5 +19,8 @@ namespace Projeto.GravacaoXML.Models
 
         [XmlElement("nome")]
         public string Nome { get; set; }
+
+        public int ProcessoId { get; set; }
+        public Processo Processo { get; set; }
     }
 }
