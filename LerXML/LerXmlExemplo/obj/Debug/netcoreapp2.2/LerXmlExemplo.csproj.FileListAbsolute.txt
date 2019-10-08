@@ -9,3 +9,14 @@ C:\Teste\LerXML\LerXmlExemplo\obj\Debug\netcoreapp2.2\LerXmlExemplo.AssemblyInfo
 C:\Teste\LerXML\LerXmlExemplo\obj\Debug\netcoreapp2.2\LerXmlExemplo.AssemblyInfo.cs
 C:\Teste\LerXML\LerXmlExemplo\obj\Debug\netcoreapp2.2\LerXmlExemplo.dll
 C:\Teste\LerXML\LerXmlExemplo\obj\Debug\netcoreapp2.2\LerXmlExemplo.pdb
+C:\GitHub\LerXmlSerializadorAspNetCore\LerXML\LerXmlExemplo\bin\Debug\netcoreapp2.2\LerXmlExemplo.deps.json
+C:\GitHub\LerXmlSerializadorAspNetCore\LerXML\LerXmlExemplo\bin\Debug\netcoreapp2.2\LerXmlExemplo.runtimeconfig.json
+C:\GitHub\LerXmlSerializadorAspNetCore\LerXML\LerXmlExemplo\bin\Debug\netcoreapp2.2\LerXmlExemplo.runtimeconfig.dev.json
+C:\GitHub\LerXmlSerializadorAspNetCore\LerXML\LerXmlExemplo\bin\Debug\netcoreapp2.2\LerXmlExemplo.dll
+C:\GitHub\LerXmlSerializadorAspNetCore\LerXML\LerXmlExemplo\bin\Debug\netcoreapp2.2\LerXmlExemplo.pdb
+C:\GitHub\LerXmlSerializadorAspNetCore\LerXML\LerXmlExemplo\obj\Debug\netcoreapp2.2\LerXmlExemplo.csprojAssemblyReference.cache
+C:\GitHub\LerXmlSerializadorAspNetCore\LerXML\LerXmlExemplo\obj\Debug\netcoreapp2.2\LerXmlExemplo.csproj.CoreCompileInputs.cache
+C:\GitHub\LerXmlSerializadorAspNetCore\LerXML\LerXmlExemplo\obj\Debug\netcoreapp2.2\LerXmlExemplo.AssemblyInfoInputs.cache
+C:\GitHub\LerXmlSerializadorAspNetCore\LerXML\LerXmlExemplo\obj\Debug\netcoreapp2.2\LerXmlExemplo.AssemblyInfo.cs
+C:\GitHub\LerXmlSerializadorAspNetCore\LerXML\LerXmlExemplo\obj\Debug\netcoreapp2.2\LerXmlExemplo.dll
+C:\GitHub\LerXmlSerializadorAspNetCore\LerXML\LerXmlExemplo\obj\Debug\netcoreapp2.2\LerXmlExemplo.pdb
