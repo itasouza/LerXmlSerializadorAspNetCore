@@ -35,15 +35,15 @@ namespace Projeto.GravacaoXML.Controllers
                 var webRoot = _env.WebRootPath;
                 var file = System.IO.Path.Combine(webRoot, @"xml\2323.xml");
 
-                XmlSerializer xmlSerializer = new XmlSerializer(typeof(Revista));
-                StreamReader sr = new StreamReader(file);
-                //var revista = xmlSerializer.Deserialize(sr);
-                RevistaDto DadosLidos = (RevistaDto)xmlSerializer.Deserialize(sr);
+               // XmlSerializer xmlSerializer = new XmlSerializer(typeof(RevistaDTO));
+               // StreamReader sr = new StreamReader(file);
+               //// var revista = xmlSerializer.Deserialize(sr);
+               // RevistaDTO DadosLidos = (RevistaDTO)xmlSerializer.Deserialize(sr);
 
-                //Revista dados = new Revista();
+                //Revista dados = Revista.Adapter(DadosLidos);
                 //dados.Data = DadosLidos.Data;
                 //dados.Numero = DadosLidos.Numero;
-                //_context.REVISTA.Add(dados);
+               // _context.REVISTA.Add(dados);
                 //_context.Add(dados);
                 await _context.SaveChangesAsync();
 

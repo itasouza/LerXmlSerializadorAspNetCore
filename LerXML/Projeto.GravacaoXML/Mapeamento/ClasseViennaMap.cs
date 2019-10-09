@@ -13,8 +13,12 @@ namespace Projeto.GravacaoXML.Mapeamento
         public void Configure(EntityTypeBuilder<ClasseVienna> builder)
         {
             builder.HasKey(x => x.ClasseViennaId);
-            builder.Property(x => x.Codigo).HasColumnType("int").IsRequired(false);
+            builder.Property(td => td.ClasseViennaId).HasColumnType("int").IsRequired().ValueGeneratedOnAdd();
+            builder.Property(x => x.Codigo).HasColumnType("varchar(200)").IsRequired(false);
 
+            builder.Property(x => x.ClassesViennaId).HasColumnType("int").IsRequired();
+            builder.HasOne(x => x.ClassesVienna).WithMany(x => x.ClasseVienna).HasForeignKey(x => x.ClasseViennaId).OnDelete(DeleteBehavior.Restrict);
+           
             builder.ToTable("CLASSEVIENNA");
         }
     }

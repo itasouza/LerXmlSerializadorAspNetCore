@@ -13,8 +13,10 @@ namespace Projeto.GravacaoXML.Mapeamento
         public void Configure(EntityTypeBuilder<ClasseNice> builder)
         {
             builder.HasKey(x => x.ClasseNiceId);
+            builder.Property(td => td.ClasseNiceId).HasColumnType("int").IsRequired().ValueGeneratedOnAdd();
             builder.Property(x => x.Codigo).HasColumnType("int").IsRequired(false); 
             builder.Property(x => x.Especificacao).HasColumnType("varchar(300)");
+            builder.Property(x => x.ProcessoId).HasColumnType("int").IsRequired();
 
             builder.ToTable("CLASSENICE");
         }

@@ -13,9 +13,11 @@ namespace Projeto.GravacaoXML.Mapeamento
         public void Configure(EntityTypeBuilder<Marca> builder)
         {
             builder.HasKey(x => x.MarcaId);
+            builder.Property(td => td.MarcaId).HasColumnType("int").IsRequired().ValueGeneratedOnAdd();
             builder.Property(x => x.Natureza).HasColumnType("varchar(200)");
             builder.Property(x => x.Nome).HasColumnType("varchar(200)");
             builder.Property(x => x.Apresentacao).HasColumnType("varchar(200)");
+            builder.Property(x => x.ProcessoId).HasColumnType("int").IsRequired();
 
             builder.ToTable("MARCA");
         }

@@ -7,7 +7,7 @@ namespace Projeto.GravacaoXML.Dto
 {
 
     [XmlRoot("revista")]
-    public class RevistaDto
+    public class RevistaDTO
     {
         [XmlAttribute("numero")]
         public string Numero { get; set; }
@@ -16,12 +16,12 @@ namespace Projeto.GravacaoXML.Dto
         public string Data { get; set; }
 
         [XmlElement("processo")]
-        public Processo[] Processos { get; set; }
+        public ProcessoDTO[] Processos { get; set; }
 
     }
 
     [XmlRoot("processo")]
-    public class Processo
+    public class ProcessoDTO
     {
         [XmlAttribute("numero")]
         public string Numero { get; set; }
@@ -30,21 +30,21 @@ namespace Projeto.GravacaoXML.Dto
         public string DataDoDeposito { get; set; }
 
         [XmlArray("despachos")]
-        [XmlArrayItem("despacho", typeof(Despacho))]
-        public Despacho[] Despachos { get; set; }
+        [XmlArrayItem("despacho", typeof(DespachoDTO))]
+        public DespachoDTO[] Despachos { get; set; }
 
         [XmlArray("titulares")]
-        [XmlArrayItem("titular", typeof(Titular))]
-        public Titular[] Titulares { get; set; }
+        [XmlArrayItem("titular", typeof(TitularDTO))]
+        public TitularDTO[] Titulares { get; set; }
 
         [XmlElement("marca")]
-        public Marca Marca { get; set; }
+        public MarcaDTO Marca { get; set; }
 
         [XmlElement("classes-vienna")]
-        public ClassesVienna ClassesVienna { get; set; }
+        public ClassesViennaDTO ClassesVienna { get; set; }
 
         [XmlElement("classe-nice")]
-        public ClasseNice ClasseNice { get; set; }
+        public ClasseNiceDTO ClasseNice { get; set; }
 
         [XmlElement("apostila")]
         public string Apostila { get; set; }
@@ -55,18 +55,18 @@ namespace Projeto.GravacaoXML.Dto
 
 
     [XmlRoot("classes-vienna")]
-    public class ClassesVienna
+    public class ClassesViennaDTO
     {
         [XmlAttribute("edicao")]
         public string Edicao { get; set; }
 
         [XmlElement("classe-vienna")]
-        public ClasseVienna[] ClasseVienna { get; set; }
+        public ClasseViennaDTO[] ClasseVienna { get; set; }
 
     }
 
     [XmlRoot("classe-vienna")]
-    public class ClasseVienna
+    public class ClasseViennaDTO
     {
         [XmlAttribute("codigo")]
         public string Codigo { get; set; }
@@ -74,7 +74,7 @@ namespace Projeto.GravacaoXML.Dto
     }
 
     [XmlRoot("despacho")]
-    public class Despacho
+    public class DespachoDTO
     {
         [XmlAttribute("codigo")]
         public string Codigo { get; set; }
@@ -84,7 +84,7 @@ namespace Projeto.GravacaoXML.Dto
     }
 
     [XmlRoot("titular")]
-    public class Titular
+    public class TitularDTO
     {
         [XmlAttribute("nome-razao-social")]
         public string RazaoSocial { get; set; }
@@ -97,7 +97,7 @@ namespace Projeto.GravacaoXML.Dto
     }
 
     [XmlRoot("marca")]
-    public class Marca
+    public class MarcaDTO
     {
         [XmlAttribute("apresentacao")]
         public string Apresentacao { get; set; }
@@ -110,7 +110,7 @@ namespace Projeto.GravacaoXML.Dto
     }
 
     [XmlRoot("classe-nice")]
-    public class ClasseNice
+    public class ClasseNiceDTO
     {
         [XmlAttribute("codigo")]
         public string Codigo { get; set; }
