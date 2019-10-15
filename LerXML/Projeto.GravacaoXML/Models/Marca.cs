@@ -10,16 +10,18 @@ namespace Projeto.GravacaoXML.Models
 
     public class Marca
     {
-        public int MarcaId { get; set; }
+        public string MarcaId { get; set; }
         public string Apresentacao { get; set; }
         public string Natureza { get; set; }
         public string Nome { get; set; }
-        public int ProcessoId { get; set; }
+        public string ProcessoId { get; set; }
         public Processo Processo { get; set; }
 
         public static Marca Adapter(MarcaDTO marcaDTO, Processo processo)
         {
             Marca marca = new Marca();
+
+            marca.MarcaId = Guid.NewGuid().ToString().Replace("-", "");
             marca.Apresentacao = marcaDTO.Apresentacao;
             marca.Natureza = marcaDTO.Natureza;
             marca.Nome = marcaDTO.Nome;

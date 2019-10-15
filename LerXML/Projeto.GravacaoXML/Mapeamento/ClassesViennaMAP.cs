@@ -13,9 +13,10 @@ namespace Projeto.GravacaoXML.Mapeamento
         public void Configure(EntityTypeBuilder<ClassesVienna> builder)
         {
             builder.HasKey(x => x.ClassesViennaId);
-            builder.Property(td => td.ClassesViennaId).HasColumnType("int").IsRequired().ValueGeneratedOnAdd();
-            builder.Property(x => x.Edicao).HasColumnType("varchar(200)");
-            builder.Property(x => x.ProcessoId).HasColumnType("int").IsRequired();
+            builder.Property(td => td.ClassesViennaId).HasColumnType("char(32)").IsRequired();
+            builder.Property(x => x.Edicao).HasColumnType("varchar(8000)");
+            builder.Property(x => x.ProcessoId).HasColumnType("char(32)").IsRequired();
+            builder.HasOne(x => x.Processo).WithOne(x => x.ClassesVienna);
 
             builder.HasMany(x => x.ClasseVienna)
                 .WithOne()

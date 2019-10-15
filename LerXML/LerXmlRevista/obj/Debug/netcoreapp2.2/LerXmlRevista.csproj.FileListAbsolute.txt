@@ -30,3 +30,24 @@ C:\GitHub\LerXmlSerializadorAspNetCore\LerXML\LerXmlRevista\obj\Debug\netcoreapp
 C:\GitHub\LerXmlSerializadorAspNetCore\LerXML\LerXmlRevista\obj\Debug\netcoreapp2.2\LerXmlRevista.AssemblyInfo.cs
 C:\GitHub\LerXmlSerializadorAspNetCore\LerXML\LerXmlRevista\obj\Debug\netcoreapp2.2\LerXmlRevista.dll
 C:\GitHub\LerXmlSerializadorAspNetCore\LerXML\LerXmlRevista\obj\Debug\netcoreapp2.2\LerXmlRevista.pdb
+D:\Itamar\LerXmlSerializadorAspNetCore-master (1)\LerXmlSerializadorAspNetCore-master\LerXML\LerXmlRevista\bin\Debug\netcoreapp2.2\LerXmlRevista.deps.json
+D:\Itamar\LerXmlSerializadorAspNetCore-master (1)\LerXmlSerializadorAspNetCore-master\LerXML\LerXmlRevista\bin\Debug\netcoreapp2.2\LerXmlRevista.runtimeconfig.json
+D:\Itamar\LerXmlSerializadorAspNetCore-master (1)\LerXmlSerializadorAspNetCore-master\LerXML\LerXmlRevista\bin\Debug\netcoreapp2.2\LerXmlRevista.runtimeconfig.dev.json
+D:\Itamar\LerXmlSerializadorAspNetCore-master (1)\LerXmlSerializadorAspNetCore-master\LerXML\LerXmlRevista\bin\Debug\netcoreapp2.2\LerXmlRevista.dll
+D:\Itamar\LerXmlSerializadorAspNetCore-master (1)\LerXmlSerializadorAspNetCore-master\LerXML\LerXmlRevista\bin\Debug\netcoreapp2.2\LerXmlRevista.pdb
+D:\Itamar\LerXmlSerializadorAspNetCore-master (1)\LerXmlSerializadorAspNetCore-master\LerXML\LerXmlRevista\obj\Debug\netcoreapp2.2\LerXmlRevista.csprojAssemblyReference.cache
+D:\Itamar\LerXmlSerializadorAspNetCore-master (1)\LerXmlSerializadorAspNetCore-master\LerXML\LerXmlRevista\obj\Debug\netcoreapp2.2\LerXmlRevista.AssemblyInfoInputs.cache
+D:\Itamar\LerXmlSerializadorAspNetCore-master (1)\LerXmlSerializadorAspNetCore-master\LerXML\LerXmlRevista\obj\Debug\netcoreapp2.2\LerXmlRevista.AssemblyInfo.cs
+D:\Itamar\LerXmlSerializadorAspNetCore-master (1)\LerXmlSerializadorAspNetCore-master\LerXML\LerXmlRevista\obj\Debug\netcoreapp2.2\LerXmlRevista.dll
+D:\Itamar\LerXmlSerializadorAspNetCore-master (1)\LerXmlSerializadorAspNetCore-master\LerXML\LerXmlRevista\obj\Debug\netcoreapp2.2\LerXmlRevista.pdb
+C:\Users\isouza\Downloads\LerXmlSerializadorAspNetCore-master\LerXML\LerXmlRevista\bin\Debug\netcoreapp2.2\LerXmlRevista.deps.json
+C:\Users\isouza\Downloads\LerXmlSerializadorAspNetCore-master\LerXML\LerXmlRevista\bin\Debug\netcoreapp2.2\LerXmlRevista.runtimeconfig.json
+C:\Users\isouza\Downloads\LerXmlSerializadorAspNetCore-master\LerXML\LerXmlRevista\bin\Debug\netcoreapp2.2\LerXmlRevista.runtimeconfig.dev.json
+C:\Users\isouza\Downloads\LerXmlSerializadorAspNetCore-master\LerXML\LerXmlRevista\bin\Debug\netcoreapp2.2\LerXmlRevista.dll
+C:\Users\isouza\Downloads\LerXmlSerializadorAspNetCore-master\LerXML\LerXmlRevista\bin\Debug\netcoreapp2.2\LerXmlRevista.pdb
+C:\Users\isouza\Downloads\LerXmlSerializadorAspNetCore-master\LerXML\LerXmlRevista\obj\Debug\netcoreapp2.2\LerXmlRevista.csprojAssemblyReference.cache
+C:\Users\isouza\Downloads\LerXmlSerializadorAspNetCore-master\LerXML\LerXmlRevista\obj\Debug\netcoreapp2.2\LerXmlRevista.csproj.CoreCompileInputs.cache
+C:\Users\isouza\Downloads\LerXmlSerializadorAspNetCore-master\LerXML\LerXmlRevista\obj\Debug\netcoreapp2.2\LerXmlRevista.AssemblyInfoInputs.cache
+C:\Users\isouza\Downloads\LerXmlSerializadorAspNetCore-master\LerXML\LerXmlRevista\obj\Debug\netcoreapp2.2\LerXmlRevista.AssemblyInfo.cs
+C:\Users\isouza\Downloads\LerXmlSerializadorAspNetCore-master\LerXML\LerXmlRevista\obj\Debug\netcoreapp2.2\LerXmlRevista.dll
+C:\Users\isouza\Downloads\LerXmlSerializadorAspNetCore-master\LerXML\LerXmlRevista\obj\Debug\netcoreapp2.2\LerXmlRevista.pdb

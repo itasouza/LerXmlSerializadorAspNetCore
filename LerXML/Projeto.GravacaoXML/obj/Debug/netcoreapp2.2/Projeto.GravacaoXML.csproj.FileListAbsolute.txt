@@ -35,9 +35,6 @@ D:\Itamar\LerXmlSerializadorAspNetCore-master (1)\LerXmlSerializadorAspNetCore-m
 D:\Itamar\LerXmlSerializadorAspNetCore-master (1)\LerXmlSerializadorAspNetCore-master\LerXML\Projeto.GravacaoXML\obj\Debug\netcoreapp2.2\Projeto.GravacaoXML.AssemblyInfo.cs
 D:\Itamar\LerXmlSerializadorAspNetCore-master (1)\LerXmlSerializadorAspNetCore-master\LerXML\Projeto.GravacaoXML\obj\Debug\netcoreapp2.2\Projeto.GravacaoXML.dll
 D:\Itamar\LerXmlSerializadorAspNetCore-master (1)\LerXmlSerializadorAspNetCore-master\LerXML\Projeto.GravacaoXML\obj\Debug\netcoreapp2.2\Projeto.GravacaoXML.pdb
-D:\Itamar\LerXmlSerializadorAspNetCore-master (1)\LerXmlSerializadorAspNetCore-master\LerXML\Projeto.GravacaoXML\bin\Debug\netcoreapp2.2\appsettings.Development.json
-D:\Itamar\LerXmlSerializadorAspNetCore-master (1)\LerXmlSerializadorAspNetCore-master\LerXML\Projeto.GravacaoXML\bin\Debug\netcoreapp2.2\appsettings.json
-D:\Itamar\LerXmlSerializadorAspNetCore-master (1)\LerXmlSerializadorAspNetCore-master\LerXML\Projeto.GravacaoXML\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
 D:\Itamar\LerXmlSerializadorAspNetCore-master (1)\LerXmlSerializadorAspNetCore-master\LerXML\Projeto.GravacaoXML\bin\Debug\netcoreapp2.2\Projeto.GravacaoXML.deps.json
 D:\Itamar\LerXmlSerializadorAspNetCore-master (1)\LerXmlSerializadorAspNetCore-master\LerXML\Projeto.GravacaoXML\bin\Debug\netcoreapp2.2\Projeto.GravacaoXML.runtimeconfig.json
 D:\Itamar\LerXmlSerializadorAspNetCore-master (1)\LerXmlSerializadorAspNetCore-master\LerXML\Projeto.GravacaoXML\bin\Debug\netcoreapp2.2\Projeto.GravacaoXML.runtimeconfig.dev.json
@@ -48,14 +45,6 @@ D:\Itamar\LerXmlSerializadorAspNetCore-master (1)\LerXmlSerializadorAspNetCore-m
 D:\Itamar\LerXmlSerializadorAspNetCore-master (1)\LerXmlSerializadorAspNetCore-master\LerXML\Projeto.GravacaoXML\obj\Debug\netcoreapp2.2\Projeto.GravacaoXML.TagHelpers.input.cache
 D:\Itamar\LerXmlSerializadorAspNetCore-master (1)\LerXmlSerializadorAspNetCore-master\LerXML\Projeto.GravacaoXML\obj\Debug\netcoreapp2.2\Projeto.GravacaoXML.TagHelpers.output.cache
 D:\Itamar\LerXmlSerializadorAspNetCore-master (1)\LerXmlSerializadorAspNetCore-master\LerXML\Projeto.GravacaoXML\obj\Debug\netcoreapp2.2\Projeto.GravacaoXML.RazorCoreGenerate.cache
-D:\Itamar\LerXmlSerializadorAspNetCore-master (1)\LerXmlSerializadorAspNetCore-master\LerXML\Projeto.GravacaoXML\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.cshtml.g.cs
-D:\Itamar\LerXmlSerializadorAspNetCore-master (1)\LerXmlSerializadorAspNetCore-master\LerXML\Projeto.GravacaoXML\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.cshtml.g.cs
-D:\Itamar\LerXmlSerializadorAspNetCore-master (1)\LerXmlSerializadorAspNetCore-master\LerXML\Projeto.GravacaoXML\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.cshtml.g.cs
-D:\Itamar\LerXmlSerializadorAspNetCore-master (1)\LerXmlSerializadorAspNetCore-master\LerXML\Projeto.GravacaoXML\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
-D:\Itamar\LerXmlSerializadorAspNetCore-master (1)\LerXmlSerializadorAspNetCore-master\LerXML\Projeto.GravacaoXML\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.cshtml.g.cs
-D:\Itamar\LerXmlSerializadorAspNetCore-master (1)\LerXmlSerializadorAspNetCore-master\LerXML\Projeto.GravacaoXML\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
-D:\Itamar\LerXmlSerializadorAspNetCore-master (1)\LerXmlSerializadorAspNetCore-master\LerXML\Projeto.GravacaoXML\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.cshtml.g.cs
-D:\Itamar\LerXmlSerializadorAspNetCore-master (1)\LerXmlSerializadorAspNetCore-master\LerXML\Projeto.GravacaoXML\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.cshtml.g.cs
 D:\Itamar\LerXmlSerializadorAspNetCore-master (1)\LerXmlSerializadorAspNetCore-master\LerXML\Projeto.GravacaoXML\obj\Debug\netcoreapp2.2\Projeto.GravacaoXML.RazorTargetAssemblyInfo.cache
 D:\Itamar\LerXmlSerializadorAspNetCore-master (1)\LerXmlSerializadorAspNetCore-master\LerXML\Projeto.GravacaoXML\obj\Debug\netcoreapp2.2\Projeto.GravacaoXML.RazorTargetAssemblyInfo.cs
 D:\Itamar\LerXmlSerializadorAspNetCore-master (1)\LerXmlSerializadorAspNetCore-master\LerXML\Projeto.GravacaoXML\obj\Debug\netcoreapp2.2\Projeto.GravacaoXML.Views.pdb
@@ -90,3 +79,44 @@ C:\src\LerXML\Projeto.GravacaoXML\obj\Debug\netcoreapp2.2\Projeto.GravacaoXML.dl
 C:\src\LerXML\Projeto.GravacaoXML\obj\Debug\netcoreapp2.2\Projeto.GravacaoXML.pdb
 C:\src\LerXML\Projeto.GravacaoXML\obj\Debug\netcoreapp2.2\Projeto.GravacaoXML.csproj.CopyComplete
 C:\src\LerXML\Projeto.GravacaoXML\obj\Debug\netcoreapp2.2\Projeto.GravacaoXML.csprojAssemblyReference.cache
+D:\Itamar\LerXmlSerializadorAspNetCore-master (1)\LerXmlSerializadorAspNetCore-master\LerXML\Projeto.GravacaoXML\bin\Debug\netcoreapp2.2\appsettings.Development.json
+D:\Itamar\LerXmlSerializadorAspNetCore-master (1)\LerXmlSerializadorAspNetCore-master\LerXML\Projeto.GravacaoXML\bin\Debug\netcoreapp2.2\appsettings.json
+D:\Itamar\LerXmlSerializadorAspNetCore-master (1)\LerXmlSerializadorAspNetCore-master\LerXML\Projeto.GravacaoXML\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+D:\Itamar\LerXmlSerializadorAspNetCore-master (1)\LerXmlSerializadorAspNetCore-master\LerXML\Projeto.GravacaoXML\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.cshtml.g.cs
+D:\Itamar\LerXmlSerializadorAspNetCore-master (1)\LerXmlSerializadorAspNetCore-master\LerXML\Projeto.GravacaoXML\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.cshtml.g.cs
+D:\Itamar\LerXmlSerializadorAspNetCore-master (1)\LerXmlSerializadorAspNetCore-master\LerXML\Projeto.GravacaoXML\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.cshtml.g.cs
+D:\Itamar\LerXmlSerializadorAspNetCore-master (1)\LerXmlSerializadorAspNetCore-master\LerXML\Projeto.GravacaoXML\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+D:\Itamar\LerXmlSerializadorAspNetCore-master (1)\LerXmlSerializadorAspNetCore-master\LerXML\Projeto.GravacaoXML\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\Itamar\LerXmlSerializadorAspNetCore-master (1)\LerXmlSerializadorAspNetCore-master\LerXML\Projeto.GravacaoXML\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\Itamar\LerXmlSerializadorAspNetCore-master (1)\LerXmlSerializadorAspNetCore-master\LerXML\Projeto.GravacaoXML\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.cshtml.g.cs
+D:\Itamar\LerXmlSerializadorAspNetCore-master (1)\LerXmlSerializadorAspNetCore-master\LerXML\Projeto.GravacaoXML\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\isouza\Downloads\LerXmlSerializadorAspNetCore-master\LerXML\Projeto.GravacaoXML\bin\Debug\netcoreapp2.2\Projeto.GravacaoXML.deps.json
+C:\Users\isouza\Downloads\LerXmlSerializadorAspNetCore-master\LerXML\Projeto.GravacaoXML\bin\Debug\netcoreapp2.2\Projeto.GravacaoXML.runtimeconfig.json
+C:\Users\isouza\Downloads\LerXmlSerializadorAspNetCore-master\LerXML\Projeto.GravacaoXML\bin\Debug\netcoreapp2.2\Projeto.GravacaoXML.runtimeconfig.dev.json
+C:\Users\isouza\Downloads\LerXmlSerializadorAspNetCore-master\LerXML\Projeto.GravacaoXML\bin\Debug\netcoreapp2.2\Projeto.GravacaoXML.dll
+C:\Users\isouza\Downloads\LerXmlSerializadorAspNetCore-master\LerXML\Projeto.GravacaoXML\bin\Debug\netcoreapp2.2\Projeto.GravacaoXML.pdb
+C:\Users\isouza\Downloads\LerXmlSerializadorAspNetCore-master\LerXML\Projeto.GravacaoXML\bin\Debug\netcoreapp2.2\Projeto.GravacaoXML.Views.dll
+C:\Users\isouza\Downloads\LerXmlSerializadorAspNetCore-master\LerXML\Projeto.GravacaoXML\bin\Debug\netcoreapp2.2\Projeto.GravacaoXML.Views.pdb
+C:\Users\isouza\Downloads\LerXmlSerializadorAspNetCore-master\LerXML\Projeto.GravacaoXML\obj\Debug\netcoreapp2.2\Projeto.GravacaoXML.csprojAssemblyReference.cache
+C:\Users\isouza\Downloads\LerXmlSerializadorAspNetCore-master\LerXML\Projeto.GravacaoXML\obj\Debug\netcoreapp2.2\Projeto.GravacaoXML.csproj.CoreCompileInputs.cache
+C:\Users\isouza\Downloads\LerXmlSerializadorAspNetCore-master\LerXML\Projeto.GravacaoXML\obj\Debug\netcoreapp2.2\Projeto.GravacaoXML.RazorAssemblyInfo.cache
+C:\Users\isouza\Downloads\LerXmlSerializadorAspNetCore-master\LerXML\Projeto.GravacaoXML\obj\Debug\netcoreapp2.2\Projeto.GravacaoXML.RazorAssemblyInfo.cs
+C:\Users\isouza\Downloads\LerXmlSerializadorAspNetCore-master\LerXML\Projeto.GravacaoXML\obj\Debug\netcoreapp2.2\Projeto.GravacaoXML.AssemblyInfoInputs.cache
+C:\Users\isouza\Downloads\LerXmlSerializadorAspNetCore-master\LerXML\Projeto.GravacaoXML\obj\Debug\netcoreapp2.2\Projeto.GravacaoXML.AssemblyInfo.cs
+C:\Users\isouza\Downloads\LerXmlSerializadorAspNetCore-master\LerXML\Projeto.GravacaoXML\obj\Debug\netcoreapp2.2\Projeto.GravacaoXML.TagHelpers.input.cache
+C:\Users\isouza\Downloads\LerXmlSerializadorAspNetCore-master\LerXML\Projeto.GravacaoXML\obj\Debug\netcoreapp2.2\Projeto.GravacaoXML.TagHelpers.output.cache
+C:\Users\isouza\Downloads\LerXmlSerializadorAspNetCore-master\LerXML\Projeto.GravacaoXML\obj\Debug\netcoreapp2.2\Projeto.GravacaoXML.RazorCoreGenerate.cache
+C:\Users\isouza\Downloads\LerXmlSerializadorAspNetCore-master\LerXML\Projeto.GravacaoXML\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\isouza\Downloads\LerXmlSerializadorAspNetCore-master\LerXML\Projeto.GravacaoXML\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.g.cshtml.cs
+C:\Users\isouza\Downloads\LerXmlSerializadorAspNetCore-master\LerXML\Projeto.GravacaoXML\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\isouza\Downloads\LerXmlSerializadorAspNetCore-master\LerXML\Projeto.GravacaoXML\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\isouza\Downloads\LerXmlSerializadorAspNetCore-master\LerXML\Projeto.GravacaoXML\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\isouza\Downloads\LerXmlSerializadorAspNetCore-master\LerXML\Projeto.GravacaoXML\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\isouza\Downloads\LerXmlSerializadorAspNetCore-master\LerXML\Projeto.GravacaoXML\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\isouza\Downloads\LerXmlSerializadorAspNetCore-master\LerXML\Projeto.GravacaoXML\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\isouza\Downloads\LerXmlSerializadorAspNetCore-master\LerXML\Projeto.GravacaoXML\obj\Debug\netcoreapp2.2\Projeto.GravacaoXML.RazorTargetAssemblyInfo.cache
+C:\Users\isouza\Downloads\LerXmlSerializadorAspNetCore-master\LerXML\Projeto.GravacaoXML\obj\Debug\netcoreapp2.2\Projeto.GravacaoXML.RazorTargetAssemblyInfo.cs
+C:\Users\isouza\Downloads\LerXmlSerializadorAspNetCore-master\LerXML\Projeto.GravacaoXML\obj\Debug\netcoreapp2.2\Projeto.GravacaoXML.Views.pdb
+C:\Users\isouza\Downloads\LerXmlSerializadorAspNetCore-master\LerXML\Projeto.GravacaoXML\obj\Debug\netcoreapp2.2\Projeto.GravacaoXML.dll
+C:\Users\isouza\Downloads\LerXmlSerializadorAspNetCore-master\LerXML\Projeto.GravacaoXML\obj\Debug\netcoreapp2.2\Projeto.GravacaoXML.pdb
+C:\Users\isouza\Downloads\LerXmlSerializadorAspNetCore-master\LerXML\Projeto.GravacaoXML\obj\Debug\netcoreapp2.2\Projeto.GravacaoXML.csproj.CopyComplete

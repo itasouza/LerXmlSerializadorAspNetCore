@@ -9,17 +9,18 @@ namespace Projeto.GravacaoXML.Models
 {
     public class Titular
     {
-        public int TitularId { get; set; }
+        public string TitularId { get; set; }
         public string RazaoSocial { get; set; }
         public string Pais { get; set; }
         public string UF { get; set; }
-        public int ProcessoId { get; set; }
+        public string ProcessoId { get; set; }
         public Processo Processo { get; set; }
 
         public static Titular Adapter(TitularDTO titularDTO, Processo processo)
         {
             var titular = new Titular();
 
+            titular.TitularId  = Guid.NewGuid().ToString().Replace("-", "");
             titular.RazaoSocial = titularDTO.RazaoSocial;
             titular.Pais = titularDTO.Pais;
             titular.UF = titularDTO.UF;

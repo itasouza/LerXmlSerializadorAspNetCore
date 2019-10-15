@@ -10,15 +10,16 @@ namespace Projeto.GravacaoXML.Models
 
     public class ClassesVienna
     {
-        public int ClassesViennaId { get; set; }
+        public string ClassesViennaId { get; set; }
         public string Edicao { get; set; }
         public ICollection<ClasseVienna> ClasseVienna { get; set; }
-        public int ProcessoId { get; set; }
+        public string ProcessoId { get; set; }
         public Processo Processo { get; set; }
 
         public static ClassesVienna Adapter(ClassesViennaDTO classesViennaDTO, Processo processo)
         {
             ClassesVienna classesVienna = new ClassesVienna();
+            classesVienna.ClassesViennaId = Guid.NewGuid().ToString().Replace("-", "");
             classesVienna.Edicao = classesViennaDTO.Edicao;
             classesVienna.Processo = processo;
             classesVienna.ProcessoId = processo.ProcessoId;
@@ -29,7 +30,7 @@ namespace Projeto.GravacaoXML.Models
                 foreach (var classeVienaDTO in classesViennaDTO.ClasseVienna)
                     classesVienna.ClasseVienna.Add(Models.ClasseVienna.Adapter(classeVienaDTO, classesVienna));
             }
-            
+
             return classesVienna;
         }
 

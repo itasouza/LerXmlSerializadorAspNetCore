@@ -15,10 +15,10 @@ namespace Projeto.GravacaoXML.Mapeamento
         {
             
             builder.HasKey(x => x.DespachoId);
-            builder.Property(td => td.DespachoId).HasColumnType("int").IsRequired().ValueGeneratedOnAdd();
-            builder.Property(x => x.Codigo).HasColumnType("varchar(200)").IsRequired(false);
-            builder.Property(x => x.Nome).HasColumnType("varchar(200)");
-            builder.Property(x => x.ProcessoId).HasColumnType("int").IsRequired();
+            builder.Property(td => td.DespachoId).HasColumnType("char(32)").IsRequired();
+            builder.Property(x => x.Codigo).HasColumnType("varchar(8000)").IsRequired(false);
+            builder.Property(x => x.Nome).HasColumnType("varchar(8000)");
+            builder.Property(x => x.ProcessoId).HasColumnType("char(32)").IsRequired();
 
 
             builder.ToTable("DESPACHO");

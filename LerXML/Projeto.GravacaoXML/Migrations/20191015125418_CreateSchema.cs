@@ -1,10 +1,9 @@
 ﻿using System;
-using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace Projeto.GravacaoXML.Migrations
 {
-    public partial class BancoNovo : Migration
+    public partial class CreateSchema : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -12,8 +11,7 @@ namespace Projeto.GravacaoXML.Migrations
                 name: "REVISTA",
                 columns: table => new
                 {
-                    RevistaId = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
+                    RevistaId = table.Column<string>(type: "char(32)", nullable: false),
                     Numero = table.Column<int>(type: "int", nullable: false),
                     Data = table.Column<DateTime>(type: "DateTime", nullable: true)
                 },
@@ -26,13 +24,12 @@ namespace Projeto.GravacaoXML.Migrations
                 name: "PROCESSO",
                 columns: table => new
                 {
-                    ProcessoId = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
+                    ProcessoId = table.Column<string>(type: "char(32)", nullable: false),
                     Numero = table.Column<int>(type: "int", nullable: true),
                     DataDoDeposito = table.Column<DateTime>(type: "DateTime", nullable: true),
-                    RevistaId = table.Column<int>(nullable: false),
-                    Apostila = table.Column<string>(type: "varchar(200)", nullable: true),
-                    Procurador = table.Column<string>(type: "varchar(200)", nullable: true)
+                    RevistaId = table.Column<string>(type: "char(32)", nullable: false),
+                    Apostila = table.Column<string>(type: "varchar(8000)", nullable: true),
+                    Procurador = table.Column<string>(type: "varchar(8000)", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -49,11 +46,10 @@ namespace Projeto.GravacaoXML.Migrations
                 name: "CLASSENICE",
                 columns: table => new
                 {
-                    ClasseNiceId = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
+                    ClasseNiceId = table.Column<string>(type: "char(32)", nullable: false),
                     Codigo = table.Column<int>(type: "int", nullable: true),
-                    Especificacao = table.Column<string>(type: "varchar(300)", nullable: true),
-                    ProcessoId = table.Column<int>(type: "int", nullable: false)
+                    Especificacao = table.Column<string>(type: "varchar(max)", nullable: true),
+                    ProcessoId = table.Column<string>(type: "char(32)", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -70,10 +66,9 @@ namespace Projeto.GravacaoXML.Migrations
                 name: "CLASSESVIENNA",
                 columns: table => new
                 {
-                    ClassesViennaId = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
-                    Edicao = table.Column<string>(type: "varchar(200)", nullable: true),
-                    ProcessoId = table.Column<int>(type: "int", nullable: false)
+                    ClassesViennaId = table.Column<string>(type: "char(32)", nullable: false),
+                    Edicao = table.Column<string>(type: "varchar(8000)", nullable: true),
+                    ProcessoId = table.Column<string>(type: "char(32)", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -83,18 +78,17 @@ namespace Projeto.GravacaoXML.Migrations
                         column: x => x.ProcessoId,
                         principalTable: "PROCESSO",
                         principalColumn: "ProcessoId",
-                        onDelete: ReferentialAction.Restrict);
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(
                 name: "DESPACHO",
                 columns: table => new
                 {
-                    DespachoId = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
-                    Codigo = table.Column<string>(type: "varchar(200)", nullable: true),
-                    Nome = table.Column<string>(type: "varchar(200)", nullable: true),
-                    ProcessoId = table.Column<int>(type: "int", nullable: false)
+                    DespachoId = table.Column<string>(type: "char(32)", nullable: false),
+                    Codigo = table.Column<string>(type: "varchar(8000)", nullable: true),
+                    Nome = table.Column<string>(type: "varchar(8000)", nullable: true),
+                    ProcessoId = table.Column<string>(type: "char(32)", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -104,19 +98,18 @@ namespace Projeto.GravacaoXML.Migrations
                         column: x => x.ProcessoId,
                         principalTable: "PROCESSO",
                         principalColumn: "ProcessoId",
-                        onDelete: ReferentialAction.Restrict);
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(
                 name: "MARCA",
                 columns: table => new
                 {
-                    MarcaId = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
-                    Apresentacao = table.Column<string>(type: "varchar(200)", nullable: true),
-                    Natureza = table.Column<string>(type: "varchar(200)", nullable: true),
-                    Nome = table.Column<string>(type: "varchar(200)", nullable: true),
-                    ProcessoId = table.Column<int>(type: "int", nullable: false)
+                    MarcaId = table.Column<string>(type: "char(32)", nullable: false),
+                    Apresentacao = table.Column<string>(type: "varchar(8000)", nullable: true),
+                    Natureza = table.Column<string>(type: "varchar(8000)", nullable: true),
+                    Nome = table.Column<string>(type: "varchar(8000)", nullable: true),
+                    ProcessoId = table.Column<string>(type: "char(32)", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -126,19 +119,18 @@ namespace Projeto.GravacaoXML.Migrations
                         column: x => x.ProcessoId,
                         principalTable: "PROCESSO",
                         principalColumn: "ProcessoId",
-                        onDelete: ReferentialAction.Restrict);
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(
                 name: "TITULAR",
                 columns: table => new
                 {
-                    TitularId = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
-                    RazaoSocial = table.Column<string>(type: "varchar(200)", nullable: true),
+                    TitularId = table.Column<string>(type: "char(32)", nullable: false),
+                    RazaoSocial = table.Column<string>(type: "varchar(8000)", nullable: true),
                     Pais = table.Column<string>(type: "varchar(100)", nullable: true),
                     UF = table.Column<string>(type: "varchar(2)", nullable: true),
-                    ProcessoId = table.Column<int>(type: "int", nullable: false)
+                    ProcessoId = table.Column<string>(type: "char(32)", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -148,17 +140,16 @@ namespace Projeto.GravacaoXML.Migrations
                         column: x => x.ProcessoId,
                         principalTable: "PROCESSO",
                         principalColumn: "ProcessoId",
-                        onDelete: ReferentialAction.Restrict);
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(
                 name: "CLASSEVIENNA",
                 columns: table => new
                 {
-                    ClasseViennaId = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
-                    Codigo = table.Column<string>(type: "varchar(200)", nullable: true),
-                    ClassesViennaId = table.Column<int>(type: "int", nullable: false)
+                    ClasseViennaId = table.Column<string>(type: "char(32)", nullable: false),
+                    Codigo = table.Column<string>(type: "varchar(8000)", nullable: true),
+                    ClassesViennaId = table.Column<string>(type: "char(32)", nullable: false)
                 },
                 constraints: table =>
                 {

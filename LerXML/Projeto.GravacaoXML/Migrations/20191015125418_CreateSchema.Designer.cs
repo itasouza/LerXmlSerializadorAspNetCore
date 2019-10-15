@@ -10,8 +10,8 @@ using Projeto.GravacaoXML.Data;
 namespace Projeto.GravacaoXML.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20191009023305_BancoNovo")]
-    partial class BancoNovo
+    [Migration("20191015125418_CreateSchema")]
+    partial class CreateSchema
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -23,19 +23,19 @@ namespace Projeto.GravacaoXML.Migrations
 
             modelBuilder.Entity("Projeto.GravacaoXML.Models.ClasseNice", b =>
                 {
-                    b.Property<int>("ClasseNiceId")
+                    b.Property<string>("ClasseNiceId")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+                        .HasColumnType("char(32)");
 
                     b.Property<int?>("Codigo")
                         .HasColumnType("int");
 
                     b.Property<string>("Especificacao")
-                        .HasColumnType("varchar(300)");
+                        .HasColumnType("varchar(max)");
 
-                    b.Property<int>("ProcessoId")
-                        .HasColumnType("int");
+                    b.Property<string>("ProcessoId")
+                        .IsRequired()
+                        .HasColumnType("char(32)");
 
                     b.HasKey("ClasseNiceId");
 
@@ -47,16 +47,15 @@ namespace Projeto.GravacaoXML.Migrations
 
             modelBuilder.Entity("Projeto.GravacaoXML.Models.ClasseVienna", b =>
                 {
-                    b.Property<int>("ClasseViennaId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+                    b.Property<string>("ClasseViennaId")
+                        .HasColumnType("char(32)");
 
-                    b.Property<int>("ClassesViennaId")
-                        .HasColumnType("int");
+                    b.Property<string>("ClassesViennaId")
+                        .IsRequired()
+                        .HasColumnType("char(32)");
 
                     b.Property<string>("Codigo")
-                        .HasColumnType("varchar(200)");
+                        .HasColumnType("varchar(8000)");
 
                     b.HasKey("ClasseViennaId");
 
@@ -65,16 +64,16 @@ namespace Projeto.GravacaoXML.Migrations
 
             modelBuilder.Entity("Projeto.GravacaoXML.Models.ClassesVienna", b =>
                 {
-                    b.Property<int>("ClassesViennaId")
+                    b.Property<string>("ClassesViennaId")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+                        .HasColumnType("char(32)");
 
                     b.Property<string>("Edicao")
-                        .HasColumnType("varchar(200)");
+                        .HasColumnType("varchar(8000)");
 
-                    b.Property<int>("ProcessoId")
-                        .HasColumnType("int");
+                    b.Property<string>("ProcessoId")
+                        .IsRequired()
+                        .HasColumnType("char(32)");
 
                     b.HasKey("ClassesViennaId");
 
@@ -86,19 +85,19 @@ namespace Projeto.GravacaoXML.Migrations
 
             modelBuilder.Entity("Projeto.GravacaoXML.Models.Despacho", b =>
                 {
-                    b.Property<int>("DespachoId")
+                    b.Property<string>("DespachoId")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+                        .HasColumnType("char(32)");
 
                     b.Property<string>("Codigo")
-                        .HasColumnType("varchar(200)");
+                        .HasColumnType("varchar(8000)");
 
                     b.Property<string>("Nome")
-                        .HasColumnType("varchar(200)");
+                        .HasColumnType("varchar(8000)");
 
-                    b.Property<int>("ProcessoId")
-                        .HasColumnType("int");
+                    b.Property<string>("ProcessoId")
+                        .IsRequired()
+                        .HasColumnType("char(32)");
 
                     b.HasKey("DespachoId");
 
@@ -109,22 +108,22 @@ namespace Projeto.GravacaoXML.Migrations
 
             modelBuilder.Entity("Projeto.GravacaoXML.Models.Marca", b =>
                 {
-                    b.Property<int>("MarcaId")
+                    b.Property<string>("MarcaId")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+                        .HasColumnType("char(32)");
 
                     b.Property<string>("Apresentacao")
-                        .HasColumnType("varchar(200)");
+                        .HasColumnType("varchar(8000)");
 
                     b.Property<string>("Natureza")
-                        .HasColumnType("varchar(200)");
+                        .HasColumnType("varchar(8000)");
 
                     b.Property<string>("Nome")
-                        .HasColumnType("varchar(200)");
+                        .HasColumnType("varchar(8000)");
 
-                    b.Property<int>("ProcessoId")
-                        .HasColumnType("int");
+                    b.Property<string>("ProcessoId")
+                        .IsRequired()
+                        .HasColumnType("char(32)");
 
                     b.HasKey("MarcaId");
 
@@ -136,13 +135,12 @@ namespace Projeto.GravacaoXML.Migrations
 
             modelBuilder.Entity("Projeto.GravacaoXML.Models.Processo", b =>
                 {
-                    b.Property<int>("ProcessoId")
+                    b.Property<string>("ProcessoId")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+                        .HasColumnType("char(32)");
 
                     b.Property<string>("Apostila")
-                        .HasColumnType("varchar(200)");
+                        .HasColumnType("varchar(8000)");
 
                     b.Property<DateTime?>("DataDoDeposito")
                         .HasColumnType("DateTime");
@@ -151,9 +149,11 @@ namespace Projeto.GravacaoXML.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("Procurador")
-                        .HasColumnType("varchar(200)");
+                        .HasColumnType("varchar(8000)");
 
-                    b.Property<int>("RevistaId");
+                    b.Property<string>("RevistaId")
+                        .IsRequired()
+                        .HasColumnType("char(32)");
 
                     b.HasKey("ProcessoId");
 
@@ -164,10 +164,9 @@ namespace Projeto.GravacaoXML.Migrations
 
             modelBuilder.Entity("Projeto.GravacaoXML.Models.Revista", b =>
                 {
-                    b.Property<int>("RevistaId")
+                    b.Property<string>("RevistaId")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+                        .HasColumnType("char(32)");
 
                     b.Property<DateTime?>("Data")
                         .HasColumnType("DateTime");
@@ -182,19 +181,19 @@ namespace Projeto.GravacaoXML.Migrations
 
             modelBuilder.Entity("Projeto.GravacaoXML.Models.Titular", b =>
                 {
-                    b.Property<int>("TitularId")
+                    b.Property<string>("TitularId")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+                        .HasColumnType("char(32)");
 
                     b.Property<string>("Pais")
                         .HasColumnType("varchar(100)");
 
-                    b.Property<int>("ProcessoId")
-                        .HasColumnType("int");
+                    b.Property<string>("ProcessoId")
+                        .IsRequired()
+                        .HasColumnType("char(32)");
 
                     b.Property<string>("RazaoSocial")
-                        .HasColumnType("varchar(200)");
+                        .HasColumnType("varchar(8000)");
 
                     b.Property<string>("UF")
                         .HasColumnType("varchar(2)");
@@ -227,7 +226,7 @@ namespace Projeto.GravacaoXML.Migrations
                     b.HasOne("Projeto.GravacaoXML.Models.Processo", "Processo")
                         .WithOne("ClassesVienna")
                         .HasForeignKey("Projeto.GravacaoXML.Models.ClassesVienna", "ProcessoId")
-                        .OnDelete(DeleteBehavior.Restrict);
+                        .OnDelete(DeleteBehavior.Cascade);
                 });
 
             modelBuilder.Entity("Projeto.GravacaoXML.Models.Despacho", b =>
@@ -235,7 +234,7 @@ namespace Projeto.GravacaoXML.Migrations
                     b.HasOne("Projeto.GravacaoXML.Models.Processo", "Processo")
                         .WithMany("Despachos")
                         .HasForeignKey("ProcessoId")
-                        .OnDelete(DeleteBehavior.Restrict);
+                        .OnDelete(DeleteBehavior.Cascade);
                 });
 
             modelBuilder.Entity("Projeto.GravacaoXML.Models.Marca", b =>
@@ -243,7 +242,7 @@ namespace Projeto.GravacaoXML.Migrations
                     b.HasOne("Projeto.GravacaoXML.Models.Processo", "Processo")
                         .WithOne("Marca")
                         .HasForeignKey("Projeto.GravacaoXML.Models.Marca", "ProcessoId")
-                        .OnDelete(DeleteBehavior.Restrict);
+                        .OnDelete(DeleteBehavior.Cascade);
                 });
 
             modelBuilder.Entity("Projeto.GravacaoXML.Models.Processo", b =>
@@ -259,7 +258,7 @@ namespace Projeto.GravacaoXML.Migrations
                     b.HasOne("Projeto.GravacaoXML.Models.Processo", "Processo")
                         .WithMany("Titulares")
                         .HasForeignKey("ProcessoId")
-                        .OnDelete(DeleteBehavior.Restrict);
+                        .OnDelete(DeleteBehavior.Cascade);
                 });
 #pragma warning restore 612, 618
         }

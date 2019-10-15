@@ -7,10 +7,11 @@ namespace Projeto.GravacaoXML.Models
 
     public class Processo
     {
-        public int ProcessoId { get; set; }
+
+        public string ProcessoId { get; set; }
         public int? Numero { get; set; }
         public DateTime? DataDoDeposito { get; set; }
-        public int RevistaId { get; set; }
+        public string RevistaId { get; set; }
         public Revista Revista { get; set; }
         public ICollection<Despacho> Despachos { get; set; }
         public ICollection<Titular> Titulares { get; set; }
@@ -23,6 +24,7 @@ namespace Projeto.GravacaoXML.Models
         public static Processo Adapter(ProcessoDTO processoDTO, Revista revista)
         {
             var processo = new Processo();
+            processo.ProcessoId = Guid.NewGuid().ToString().Replace("-", "");
             processo.Apostila = processoDTO.Apostila;
 
             if (!string.IsNullOrEmpty(processoDTO.Numero))
@@ -38,8 +40,8 @@ namespace Projeto.GravacaoXML.Models
             if (processoDTO.Marca != null)
                 processo.Marca = Marca.Adapter(processoDTO.Marca, processo);
 
-            if (processoDTO.ClassesVienna != null)
-                processo.ClassesVienna = ClassesVienna.Adapter(processoDTO.ClassesVienna, processo);
+            //if (processoDTO.ClassesVienna != null)
+            //    processo.ClassesVienna = ClassesVienna.Adapter(processoDTO.ClassesVienna, processo);
 
             if (processoDTO.ClasseNice != null)
                 processo.ClasseNice = ClasseNice.Adapter(processoDTO.ClasseNice, processo);

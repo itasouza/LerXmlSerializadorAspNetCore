@@ -16,7 +16,7 @@ namespace Projeto.GravacaoXML.Mapeamento
         public void Configure(EntityTypeBuilder<Revista> builder)
         {
             builder.HasKey(td => td.RevistaId);
-            builder.Property(td => td.RevistaId).HasColumnType("int").IsRequired().ValueGeneratedOnAdd();
+            builder.Property(td => td.RevistaId).HasColumnType("char(32)").IsRequired();
             builder.Property(td => td.Numero).HasColumnType("int").IsRequired();
             builder.Property(td => td.Data).HasColumnType("DateTime").IsRequired(false);
 
